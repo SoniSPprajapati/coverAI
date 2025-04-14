@@ -4,7 +4,6 @@ export default function SignupPage() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-base-100 px-4">
       <div className="w-full max-w-4xl bg-base-200 border border-base-300 rounded-box shadow-lg overflow-hidden flex flex-col md:flex-row">
-        {/* Image (left side on desktop, top on mobile) */}
         <div className="md:w-1/2 w-full h-64 md:h-auto relative">
           <img
             src="https://techeconomy.ng/wp-content/uploads/2023/10/Nigerian-AI-Startup-CoverAI-Acquired-by-New-Yorks-Writesea-in-Five-Figure-Deal-.jpg"
@@ -13,7 +12,6 @@ export default function SignupPage() {
           />
         </div>
 
-        {/* Signup form (right side on desktop, bottom on mobile) */}
         <div className="md:w-1/2 w-full p-8">
           <h3 className="text-2xl font-bold mb-2">Sign up</h3>
           <Link
